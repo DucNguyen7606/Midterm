@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Times</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<div>
+    <header id="main-header">
+        <h1>Technology Times &reg;</h1>
+        <nav class="main-nav">
+            <a href="#" class="nav-link">Home</a>
+            <span>•</span>
+            <a href="#" class="nav-link">Tech</a>
+            <span>•</span>
+            <a href="#" class="nav-link">Science</a>
+        </nav>
+    </header>
+</div>
+
+
+<article class="featured-article tech-article">
+    <h2>Future of AI &copy; 2024</h2>
+    <p>The development of AI continues to amaze experts &amp; researchers.</p>
+    <div class="highlight">New breakthroughs happen every day!</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Development</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2022</td>
+                <td>Basic AI &rarr; Advanced AI</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Major breakthrough</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Registration Form -->
+<form id="registrationForm">
+    <h3>Register</h3>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <small>Username must be at least 3 characters long</small>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <small>Please enter a valid email address</small>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <small>Password must be at least 8 characters long and contain at least one number and one special character</small>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword">
+    <small>Passwords do not match</small>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="text" id="phoneNumber" name="phoneNumber">
+    <small>Please enter a valid phone number (e.g., XXX-XXX-XXXX)</small>
+
+    <button type="submit">Submit</button>
+    <p class="success-message" id="successMessage" style="display:none;">Registration successful!</p>
+</form>
+
+<script src="script.js"></script>
+</article>
+
+</body>
+</html>
